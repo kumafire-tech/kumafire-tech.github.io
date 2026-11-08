@@ -27,3 +27,8 @@ ul{padding-left:1.3em}
 footer{border-top:1.5px solid var(--line);margin-top:48px;padding-top:18px;font-size:.9rem}
 footer a{margin:0 20px 12px 0;display:inline-block}
 footer .meta{display:block}
+.summary{background:var(--accent);border-radius:10px;padding:16px 20px;margin:18px 0 26px}
+.summary p{margin:0 0 10px}
+.summary p:last-child{margin:0}
+h3.sec{font-size:1.1rem;margin:30px 0 8px}
+td.small,th.small{font-size:.85rem}
