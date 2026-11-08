@@ -2,7 +2,7 @@
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:"Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",Georgia,serif;line-height:1.8}
 .wrap{max-width:720px;margin:0 auto;padding:32px 20px 48px}
-h1{font-size:2.2rem;margin:0;letter-spacing:.01em}
+h1{font-size:clamp(1.45rem,6.2vw,2.2rem);margin:0;letter-spacing:.01em}
 .sub{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.78rem;color:var(--muted);letter-spacing:.25em;margin:4px 0 0}
 nav{margin:18px 0 8px}
 nav a{display:inline-block;padding:8px 20px;margin:0 8px 8px 0;border:1.5px solid var(--line);border-radius:999px;color:var(--ink);text-decoration:none;font-size:.95rem;background:#fff}
@@ -20,7 +20,7 @@ a{color:var(--ink)}
 .help b{font-size:1.05rem}
 dl dt{font-weight:bold;margin-top:14px}
 dl dd{margin:0 0 6px}
-table{border-collapse:collapse;width:100%;font-size:.95rem;background:#fff}
+table{border-collapse:collapse;width:100%;font-size:.95rem;background:#fff;margin-bottom:12px}
 th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
 th{width:34%;background:#f3f1ea;font-weight:bold}
 ul{padding-left:1.3em}
